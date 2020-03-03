@@ -49,9 +49,9 @@ namespace HashCracker
                     goto Here;
                 }
 
-                wordList.GetFileAndReadIt(passwordList, hash);
+                wordList.GetHashWordlistFileAndReadIt(passwordList, hash);
 
-                hashingFile = false;
+                hashingFile = false;    
             }
 
             Console.WriteLine("Please hit enter to enter new file");

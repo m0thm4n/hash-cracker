@@ -6,7 +6,7 @@ namespace HashCracker
 {
     public class Wordlist
     { 
-        public void GetFileAndReadIt(string passwordList, string hash)
+        public void GetHashWordlistFileAndReadIt(string passwordList, string hash)
         {
             //  Hash = "e10adc3949ba59abbe56e057f20f883e"; //123456
             string Pass = "";
@@ -51,5 +51,7 @@ namespace HashCracker
 
             }
         }
+
+        public void 
     }
 }
